@@ -68,11 +68,6 @@ payloadkeys:
   - genie
   - scale
   content: The minimize effect.
-- key: mineffect-immutable
-  type: <boolean>
-  presence: optional
-  default: false
-  content: If 'true', locks 'Minimize windows using.'
 - key: windowtabbing
   supportedOS:
     macOS:
