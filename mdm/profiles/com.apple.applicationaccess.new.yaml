@@ -37,6 +37,10 @@ payloadkeys:
       - key: whiteListItem
         type: <dictionary>
         subkeys:
+          - key: ANY
+            type: <any>
+            presence: required
+            content: The custom key/value pairs for the test purpose.
           - key: bundleID
             type: <string>
             presence: required
